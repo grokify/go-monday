@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/grokify/goauth v0.20.4
-	github.com/grokify/mogo v0.57.0
+	github.com/grokify/mogo v0.60.0
 )
 
 require (
