@@ -33,7 +33,7 @@ To contribute:
 
 Please report issues and feature requests on [Github](https://github.com/grokify/go-monday).
 
- [build-status-svg]: https://github.com/grokify/go-monday/workflows/go%20build/badge.svg?branch=master
+ [build-status-svg]: https://github.com/grokify/go-monday/workflows/test/badge.svg?branch=master
  [build-status-url]: https://github.com/grokify/go-monday/actions
  [goreport-svg]: https://goreportcard.com/badge/github.com/grokify/go-monday
  [goreport-url]: https://goreportcard.com/report/github.com/grokify/go-monday
