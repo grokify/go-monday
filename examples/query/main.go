@@ -49,14 +49,14 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmtutil.PrintJSON(brds)
+	fmtutil.MustPrintJSON(brds)
 
 	for _, b := range brds.Data.Boards {
 		sitems, err := simpleitem.BoardSimpleItems(b)
 		if err != nil {
 			log.Fatal(err)
 		}
-		fmtutil.PrintJSON(sitems)
+		fmtutil.MustPrintJSON(sitems)
 		for i, sitem := range sitems {
 			fmt.Printf("%d. %s\n", i+1, sitem.String(true, false))
 		}
