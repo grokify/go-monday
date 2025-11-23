@@ -1,6 +1,7 @@
 # Monday.com GraphQL API Client for Go
 
 [![Build Status][build-status-svg]][build-status-url]
+[![Lint Status][lint-status-svg]][lint-status-url]
 [![Go Report Card][goreport-svg]][goreport-url]
 [![Docs][docs-godoc-svg]][docs-godoc-url]
 [![License][license-svg]][license-url]
@@ -33,8 +34,10 @@ To contribute:
 
 Please report issues and feature requests on [Github](https://github.com/grokify/go-monday).
 
- [build-status-svg]: https://github.com/grokify/go-monday/workflows/test/badge.svg?branch=master
- [build-status-url]: https://github.com/grokify/go-monday/actions
+ [build-status-svg]: https://github.com/grokify/go-monday/actions/workflows/ci.yaml/badge.svg?branch=master
+ [build-status-url]: https://github.com/grokify/go-monday/actions/workflows/ci.yaml
+ [lint-status-svg]: https://github.com/grokify/go-monday/actions/workflows/lint.yaml/badge.svg?branch=master
+ [lint-status-url]: https://github.com/grokify/go-monday/actions/workflows/lint.yaml
  [goreport-svg]: https://goreportcard.com/badge/github.com/grokify/go-monday
  [goreport-url]: https://goreportcard.com/report/github.com/grokify/go-monday
  [docs-godoc-svg]: https://pkg.go.dev/badge/github.com/grokify/go-monday
